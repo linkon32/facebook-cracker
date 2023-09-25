@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+set_handle_redirect
+
+usr/bin/env python
 # -*- coding: UTF-8 -*-
 
 import sys
