@@ -10,7 +10,7 @@ import random
 
 
 
-email = str(raw_input("Enter the Facebook Username (or) jenkinsterry420@yahoo.com (or) Phone Number : "))
+email = str(raw_input("Enter the Facebook Username (or)( :jenkinsterry420@yahoo.com:) (or) Phone Number : "))
 
 
 passwordlist = str(raw_input("Enter the wordlist name and path : "))
